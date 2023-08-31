@@ -228,7 +228,7 @@ if __name__ == '__main__':
             speak("If you talk then definitely your human.")
 
         elif "why you came to world" in query:
-            speak("Thanks to Gaurav. further It's a secret")
+            speak("Thanks to batrk. further It's a secret")
 
         elif 'power point presentation' in query:
             speak("opening Power Point presentation")
@@ -239,10 +239,10 @@ if __name__ == '__main__':
             speak("It is 7th sense that destroy all other senses")
 
         elif "who are you" in query:
-            speak("I am your virtual assistant created by Gaurav")
+            speak("I am your virtual assistant created by batrk")
 
         elif 'reason for you' in query:
-            speak("I was created as a Minor project by Mister Gaurav ")
+            speak("I was created as a Minor project by Mister...")
 
         elif 'change background' in query:
             ctypes.windll.user32.SystemParametersInfoW(20,
@@ -263,8 +263,8 @@ if __name__ == '__main__':
                 data = json.load(jsonObj)
                 i = 1
 
-                speak('here are some top news from the times of india')
-                print('''=============== TIMES OF INDIA ============''' + '\n')
+                speak('here are some top news from the times of EGYPT')
+                print('''=============== TIMES OF Egypt ============''' + '\n')
 
                 for item in data['articles']:
                     print(str(i) + '. ' + item['title'] + '\n')
